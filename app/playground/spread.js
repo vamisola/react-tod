@@ -34,3 +34,11 @@ var final = ['Andrew', ...names];
 final.forEach((name)=> {
   console.log(`Hi ${name}!`);
 })
+
+var nums = [3,4,5,6];
+var numCon = [];
+nums.forEach((test) => {
+  numCon.push(test * test);
+});
+
+console.log(numCon);
